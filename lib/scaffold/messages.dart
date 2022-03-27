@@ -6,6 +6,25 @@ class MessageList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Expanded(
+      child: SingleChildScrollView(child: Column(
+        children: [
+          Container(height: 100, width: 1080, ),
+          Container(height: 100, width: 1080, color: Colors.grey,),
+          Container(height: 100, width: 1080, color: Colors.blue,),
+          Container(height: 100, width: 1080, color: Colors.grey,),
+          Container(height: 100, width: 1080, color: Colors.blue,),
+          Container(height: 100, width: 1080, color: Colors.grey,),
+          Container(height: 100, width: 1080, color: Colors.blue,),
+          Container(height: 100, width: 1080, color: Colors.grey,),
+          Container(height: 100, width: 1080, color: Colors.blue,),
+          Container(height: 100, width: 1080, color: Colors.grey,),
+
+
+
+        ],
+      ),
+      ),
+    );
   }
 }
